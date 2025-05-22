@@ -1,0 +1,20 @@
+# Nu urcăm fișierele generate
+node_modules/
+dist/
+out/
+
+# Fișiere cache
+.DS_Store
+Thumbs.db
+
+# Electron
+*.exe
+*.app
+*.asar
+
+# Logs
+*.log
+
+# VSCode sau alte editoare
+.vscode/
+.idea/
