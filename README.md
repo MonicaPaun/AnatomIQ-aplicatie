@@ -20,84 +20,20 @@ Noutăți medicale
 
 Comunitate în dezvoltare
 
-⚙️ Instalare locală
-Clonează repository-ul:
-
-bash
-Copy
-Edit
-git clone https://github.com/utilizatorul-tau/anatomiq.git
-cd anatomiq
-Instalează dependențele (asigură-te că ai instalat Node.js – versiunea 14 sau mai nou):
-
-nginx
-Copy
-Edit
-npm install
-sau
-
-nginx
-Copy
-Edit
-yarn install
-💬 Activarea chatbot-ului BioBot
-AnatomIQ include un chatbot educațional integrat, care funcționează cu Dialogflow de la Google.
-Pentru ca acesta să funcționeze, trebuie să generezi propriul API key.
-
-Pași pentru a obține un API key de la Google:
-Accesează Google Cloud Console
-
-Creează un nou proiect (sau selectează unul existent)
-
-Activează „Dialogflow API”:
-
-Mergi la API & Services > Library
-
-Caută „Dialogflow API” și apasă Enable
-
-Creează un API key:
-
-Mergi la API & Services > Credentials
-
-Apasă Create Credentials > API key
-
-Copiază cheia generată
-
-Creează un fișier .env în directorul principal al proiectului și adaugă următoarea linie:
-
-ini
-Copy
-Edit
-REACT_APP_CHATBOT_API_KEY=cheia-ta-aici
-Nu publica această cheie online. Este personală și poate fi folosită abuziv.
-
-▶️ Rulare aplicație local
-După ce ai configurat totul, pornește aplicația:
-
-sql
-Copy
-Edit
-npm start
-sau
-
-sql
-Copy
-Edit
-yarn start
-Aplicația va fi disponibilă la: http://localhost:3000
 
 🧪 Testare
 Funcționalitatea chatbotului poate fi testată în aplicație, în secțiunea „BioBot”.
 De asemenea, poți verifica quiz-urile, materialele vizuale și restul funcționalităților educaționale.
 
 🛠️ Tehnologii folosite
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, Canva
 
-React.js
 
-Dialogflow API (Google Cloud)
+API_KEY: https://ai.google.dev/gemini-api/docs/api-key
 
-GitHub Pages (pentru hosting – dacă este cazul)
+GitHub Pages (pentru hosting )
+
+Netlify
 
 👥 Echipa proiectului
 Păun Monica-Georgiana
